@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Open_Sans } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
+import { ClerkProvider } from '@clerk/nextjs'
 
 const font = Open_Sans({ subsets: ['latin'] })
 
@@ -15,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko">
-      <body className={font.className}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="ko">
+        <body className={font.className}>{children}</body>
+      </html>
+    </ClerkProvider>
   )
 }
