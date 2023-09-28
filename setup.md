@@ -13,6 +13,22 @@ npx shadcn-ui@latest init
 ```
 [shadcn/ui docs](https://ui.shadcn.com/docs)
 
+
+### add dialog
+```shell
+npx shadcn-ui@latest add dialog
+```
+
+### add Input
+```shell
+npx shadcn-ui@latest add input
+```
+
+### add Form
+```shell
+npx shadcn-ui@latest add form
+```
+
 ### add Button
 ```shell
 npx shadcn-ui@latest add button
