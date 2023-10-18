@@ -3,7 +3,7 @@
 import { ServerWithMembersWithProfile } from "@/types";
 import { MemberRole, Server } from "@prisma/client";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import { ChevronDown, PlusCircle, Settings, UserPlus } from "lucide-react";
+import { ChevronDown, PlusCircle, Settings, UserPlus, Users } from "lucide-react";
 import { useModal } from "@/hooks/use-modal-store";
 
 interface ServerHeaderProps {
